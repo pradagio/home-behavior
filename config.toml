@@ -1,0 +1,6 @@
+baseURL = 'http://towardsfreedom.com/'
+languageCode = 'en-us'
+title = "Towards Freedom"
+
+paginate = 777
+theme = "prazen"

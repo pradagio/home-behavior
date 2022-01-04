@@ -1,0 +1,28 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
+<header>
+<h1 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ .Title }}</h1>
+{{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
+{{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
+
+{{ if .Params.categories }}
+{{ with .Params.categories }}
+WHERNTO:
+{{ range . }}
+<a href="{{ $.Site.BaseURL }}categories/{{ . }}">{{ . }}</a>&nbsp;
+{{ end }}
+{{ end }}
+{{ end }}
+
+</header>
+<div class="content">
+{{ .Content }}
+
+{{ if $.Param "relatedposts" | default false }}{{ partial "related.html" . }}{{ end -}}
+
+{{ if ne .Lastmod .Date }}{{ partial "dates.html" . }}{{ end -}}
+</div>
+</article>
+</main>
+{{ end }}

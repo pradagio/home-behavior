@@ -1,0 +1,13 @@
+---
+title: Test
+date: 2022-01-04T01:16:23-08:00
+author: AUT
+description: DSC
+categories: [CATS]
+tags: [TAGS]
+draft: true
+---
+
+NOTE: this is not showing up on homepage
+
+the way the things from ibrarys are (which we would prefer they didn't)
