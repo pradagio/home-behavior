@@ -5,7 +5,6 @@ author: AUT
 description: DSC
 categories: [CATS]
 tags: [TAGS]
-draft: true
 ---
 
 NOTE: this is not showing up on homepage

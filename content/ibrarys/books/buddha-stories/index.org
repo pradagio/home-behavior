@@ -5,7 +5,6 @@ author: Demi
 description: Filled with wisdom and insight, this beautiful collection of fables will continue to educate and entertain for years to come.
 categories: [heedism]
 tags: [Buddha,spiritual,wisdom]
-draft: true
 ---
 
 

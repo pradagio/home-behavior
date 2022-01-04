@@ -5,7 +5,6 @@ author: prauthor
 description: Books
 categories: []
 tags: []
-draft: true
 ---
 
 Here are books we have and haven't read! Some are available online and some aren't!

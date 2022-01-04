@@ -5,6 +5,5 @@ author: AUT
 description: DSC
 categories: [CATS]
 tags: [TAGS]
-draft: true
 ---
 
